@@ -21,14 +21,8 @@
 		<div class="g-recaptcha" data-sitekey="6LeF__cUAAAAAP0CEzzdbJzlmwVHVv4HgqqLmGhk" data-callback="onSubmit" data-size="invisible"></div>
 		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 		<script>
-			function onSubmit() {
-				var form = document.querySelector("form");
-				if (form.checkValidity()) {
-					form.submit();
-				} else {
-					grecaptcha.reset();
-					form.reportValidity();
-				}
+			function onSubmit(token) {
+				document.getElementById("form").submit();
 			}
 		</script>
 	</head>
@@ -71,15 +65,15 @@
 						<div class="fields">
 							<div class="field half">
 								<label for="name">Name</label>
-								<input type="text" name="name" id="name" required />
+								<input type="text" name="name" id="name" />
 							</div>
 							<div class="field half">
 								<label for="email">Email</label>
-								<input type="text" name="email" id="email" required />
+								<input type="text" name="email" id="email" />
 							</div>
 							<div class="field">
 								<label for="message">Message</label>
-								<textarea name="message" id="message" rows="4" required></textarea>
+								<textarea name="message" id="message" rows="4"></textarea>
 							</div>
 						</div>
 						<ul class="actions">
