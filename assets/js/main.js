@@ -251,7 +251,7 @@
 			.appendTo($this)
 			.on("click", function () {
 				location.hash = "";
-				history.pushState(null, null, "/");
+				history.pushState(null, null, "index.html");
 			});
 
 		// Prevent clicks from inside article from bubbling.
