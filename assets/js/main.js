@@ -176,7 +176,7 @@
 		if (!$body.hasClass("is-article-visible")) return;
 
 		// Add state?
-		if (typeof addState != "undefined" && addState === true) history.pushState(null, null, "/");
+		if (typeof addState != "undefined" && addState === true) history.pushState(null, null, " ");
 
 		// Handle lock.
 
