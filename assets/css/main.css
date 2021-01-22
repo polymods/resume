@@ -164,17 +164,6 @@ textarea {
 	z-index: 4;
 }
 
-.g-recaptcha {
-	font-family: "Source Sans Pro", sans-serif;
-	background-color: #ffffff;
-	color: #1b1f22 !important;
-	font-weight: 600;
-}
-
-.g-recaptcha:hover {
-	background-color: #ffffff;
-}
-
 .video-container {
 	overflow: hidden;
 	position: relative;
@@ -871,6 +860,10 @@ ul {
 	padding-left: 1em;
 }
 
+ul.project {
+	margin-bottom: 1rem;
+}
+
 ul li {
 	padding-left: 0.5em;
 }
@@ -1149,6 +1142,7 @@ button,
 	color: #ffffff !important;
 	cursor: pointer;
 	display: inline-block;
+	font-family: inherit;
 	font-size: 0.8rem;
 	font-weight: 300;
 	height: 2.75rem;
