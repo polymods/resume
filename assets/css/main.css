@@ -286,6 +286,11 @@ i {
 	font-style: italic;
 }
 
+i.lowercase,
+.i.lowercase {
+	text-transform: lowercase;
+}
+
 p {
 	margin: 0 0 2rem 0;
 }
