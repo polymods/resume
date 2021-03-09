@@ -186,6 +186,10 @@ textarea {
 	height: 100%;
 }
 
+.lowercase {
+	text-transform: lowercase;
+}
+
 /* Basic */
 
 @-ms-viewport {
@@ -284,11 +288,6 @@ b {
 em,
 i {
 	font-style: italic;
-}
-
-i.lowercase,
-.i.lowercase {
-	text-transform: lowercase;
 }
 
 p {
