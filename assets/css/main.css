@@ -179,7 +179,7 @@ textarea {
 }
 
 .video-container iframe {
-	border-radius: 4px;
+	border-radius: 0px;
 	height: 100%;
 	left: 0;
 	position: absolute;
